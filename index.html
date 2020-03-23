@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/1768d9e9d9.js" crossorigin="anonymous"></script>
+  <title>Portfólio - Werick Nalyson</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+  <link rel="icon" type="imagem/png" href="./img/logoIcon.png" />
+  <link rel="stylesheet" href="./magnific-popup.css">
+  <script src='js/jquery.js'></script>
+</head>
+
+<body data-target=".navbar" onload="animar();" class="col-12">
+  <div class="row princ" id="princ">
+    <div class="row col-12">
+      <nav class="menu navbar navbar-expand-lg navbar-light fixed-top" id="menu">
+        <a class="navbar-brand mr-5" href="#"><img src="./img/logoIcon.png" class="img-fluid" width="40px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav link" id="link">
+            <li class="nav-item active"> 
+              <a class="nav-link pr-5 pl-5" href="#"><i class="fas fa-home mr-2"></i>Página inicial<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-5 pl-5" href="#projects">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pr-5 pl-5" href="#about">Sobre</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="col-sm-6">
+      <div class="container text-center center-block" id="animar">
+        <p class="nome" >Olá! sou, WERICK NALYSON</p>
+        <div id="efeito">
+          <label class="nomeDeveloper">Desenvolvedor Web</label>
+        </div>
+      </div>
+      <div class="text-center" id="mexer">
+        <label class="descricao col-sm-12">"Cara, você tem que saber que a vaca não dá leite."</label>
+      </div>
+    </div>
+    <div class="div-right col-sm-6 d-grid justify-content-center align-items-center" >
+      <div class="col-sm-12">
+        <img  class="img-fluid" src="img/gifs/about_us_img.gif" alt="">
+      </div>
+    </div>
+  </div>
+  
+  <!-- -------- PROJETOS ---------  -->
+  <div class="row text-dark p-5" id="projects">
+    <div class="projects col-sm-6 anime">
+      <div class="row mb-2">
+        <h3 class="m-auto" style="border-bottom: 1px solid #104E8B; padding: 5px; color: #104E8B;">Design</h3>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 p-5">
+          <figure class="figure d-flex justify-content-center align-items-center ">
+            <img type="button" data-toggle="modal" data-target="#modalDesign" src="./img/imdDesign.png" class="img-fluid rounded" alt="..." width="350px" style="cursor: pointer;">
+          </figure>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 anime">
+      <div class="row mb-2">
+        <h3 class="m-auto" style="border-bottom: 1px solid #104E8B; padding: 5px; color: #104E8B;">Desenvolvimento</h3>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 p-5">
+          <figure class="figure d-flex justify-content-center align-items-center">
+            <img type="button" data-toggle="modal" data-target="#modalDeveloper" src="./img/imgDeveloper.png" class="img-fluid rounded" alt="..." width="350px" style="cursor: pointer;">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- class: habilits -->
+  <div class="row habilits bg-light" id="about">
+    <div class="col-2 pt-5 lado">
+      <h2 class="" style="font-size: 60px; color: #ffffff; font-weight: bolder;">S</h2>
+      <h2 class="" style="font-size: 60px; color: #ffffff; font-weight: bolder;">O</h2>
+      <h2 class="" style="font-size: 60px; color: #ffffff; font-weight: bolder;">B</h2>
+      <h2 class="" style="font-size: 60px; color: #ffffff; font-weight: bolder;">R</h2>
+      <h2 class="" style="font-size: 60px; color: #ffffff; font-weight: bolder;">E</h2><br>
+    </div>
+    <div class="lado1 col-10" style="background-color: rgba(255, 255, 255, 0.9);">
+      <div class="text-dark">
+        <div class="row p-2">
+          <div class="col-sm-6 font anime">
+            <h3 class="mb-2 pb-2" style="color: #104E8B;"><i class="fas fa-user-tie mr-2"></i>Um pouco sobre mim</h3>
+            <p>
+              Olá, me chamo Werick Nalyson de Paulo Juvenal, sou estudante do 3º ano de uma escola profissionalizante em Pacatuba no Ceará.
+              Na mesma instituição faço um curso técnico na area da informática. O Enem é uma prova muito importante na vida da pessoas em geral,
+              então, tenho me esforçado bastante para conseguir ganhar uma bolsa de estudos no curso de Ciências da computação.
+            </p>
+            
+            
+            <h3 class="mb-2 pb-2" style="color: #104E8B;"><i class="fas fa-globe mr-2"></i>Tecnologias</h3>
+            <div id="dados">
+              
+              <script>
+                function meuProgresso() {
+                  const valores = ['HTML e CSS3', 'Bootstrap', 'PHP', 'javaScript', 'Java (desktop)', 'React.js']
+                  const valorReferente = ['90%', '80%', '70%', '60%', '50%', '30%']
+                  let html = "";
+                  for (let i in valores) {
+                    html += "<span>" + valores[i] + "</span>";
+                    html += "<div class='progress mt mb-2'>";
+                      html += "<div class='progress-bar' role='progressbar' style='width: " + valorReferente[i] +"; background-color: #104E8B;' arial-valuenow='25' arial-valuemin='0' arial-valuemax='100'>" + valorReferente[i] + "</div>";
+                      html += "</div>";
+                    }
+                    document.getElementById('dados').innerHTML = html;
+                  }
+                </script>
+              </div>
+            </div>
+            
+            <div class="col-sm-6 font anime">
+              <h3 class="mb-3 pb-2" style="color: #104E8B;"><i class="fas fa-book mr-2"></i>Habilidades</h3>
+              <div class="row">
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Organizado</label>
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Proativo</label>
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Bom humorado</label>
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Busco aprender</label>
+              </div>
+              <div class="row">
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Pontual</label>
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Compromissado</label>
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Comunicativo</label>
+                <label class="col-sm-6"><i class="fas fa-caret-right mr-3"></i>Criativo</label>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                  <img  class="img-fluid" src="./img/banner-image-home.png" alt="" width="80%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row footer bg-dark text-light">
+      <div class="fot container-fluid d-flex justify-content-center align-items-center p-3" style="background-color: #333; overflow: hidden;">
+        <span style="color: #555; ">redes sociais</span>
+        <a href="https://www.facebook.com/profile.php?id=100007483367000" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/werick_nalyson/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href=""><i class="fab fa-whatsapp-square"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#search/wericknalyson%40gmail.com?compose=jrjtXGlgGmQfRXlQlNlzzCsBTxWDDvkzlJdGVpGVsHtCKmRhHqMkkbrwfBJTXSbJpMKpqcQV" target="_blank"><i class="fab fa-google-plus-square"></i></a>        
+      </div>
+      <div class="container-fluid col-12 d-flex justify-content-center p-2" style="background-color: #222;">
+        <span style="font-size: small; font-family: 'Quicksand', sans-serif;">Werick Nalyson de Paulo Juvenal | copyright <i class="far fa-copyright"></i> | 2020</span>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Design -->
+  <div class="modal fade" id="modalDesign" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header" >
+          <h5 class="modal-title" id="exampleModalCenterTitle"><img src="./img/imdDesign.png" width="30px"> Design</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">            
+          <div class="accordion" id="myGroup">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="row col-12">
+                <button class="btn-mod" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapseThree">
+                  <span>Mockups</span>
+                </button>
+                
+                <button class="btn-mod ml-2" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseOne">
+                  <span>Logos</span>
+                </button>
+                
+                <button class="btn-mod ml-2" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
+                  <span>Social Media</span>
+                </button>
+                
+                <button class="btn-mod ml-2" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseFour">
+                  <span>Media Stories</span>
+                </button>
+              </div>
+            </div>
+            
+            <!-- Mockups -->
+            <div id="collapse1" class="collapse show p-2" data-parent="#myGroup">
+              <div class="row mt-2 parent-container">
+                <div class="fotos col-4"><a href="./img/Mockups/img-3.jpeg" class="image-link"><img src="./img/Mockups/img-3.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/Mockups/img-4.jpeg" class="image-link"><img src="./img/Mockups/img-4.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/Mockups/img-2.jpeg" class="image-link"><img src="./img/Mockups/img-2.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/Mockups/img-1.jpeg" class="image-link"><img src="./img/Mockups/img-1.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/Mockups/img-7.jpeg" class="image-link"><img src="./img/Mockups/img-7.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/Mockups/img-8.jpeg" class="image-link"><img src="./img/Mockups/img-8.jpeg" class="if img-fluid" alt=""></a></div>
+              </div>
+            </div>
+            
+            <!-- Logos -->
+            <div id="collapse2" class="collapse p-2" data-parent="#myGroup">
+              <div class="row mt-2 parent-container2">
+                <div class="fotos col-4"><a href="./img/Logos/logo1.png" class="image-link"><img src="./img/Logos/logo1.png" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/Logos/logo3.png" class="image-link"><img src="./img/Logos/logo3.png" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/Logos/logo7.png" class="image-link"><img src="./img/Logos/logo7.png" class="if img-fluid" alt=""></a></div>
+              </div>
+            </div>
+            
+            <!-- Soical Media -->
+            <div id="collapse3" class="collapse p-2" data-parent="#myGroup">
+              <div class="row mt-2 parent-container3">
+                <div class="fotos col-4"><a href="./img/SocialMedia/img-1.jpeg" class="image-link"><img src="./img/SocialMedia/img-1.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/SocialMedia/img-2.jpeg" class="image-link"><img src="./img/SocialMedia/img-2.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/SocialMedia/img-3.jpeg" class="image-link"><img src="./img/SocialMedia/img-3.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/SocialMedia/img-4.jpeg" class="image-link"><img src="./img/SocialMedia/img-4.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/SocialMedia/img-5.jpeg" class="image-link"><img src="./img/SocialMedia/img-5.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/SocialMedia/img-6.png" class="image-link"><img src="./img/SocialMedia/img-6.png" class="if img-fluid" alt=""></a></div>
+              </div>
+            </div>
+            
+            <!-- Media Stories -->
+            <div id="collapse4" class="collapse p-2" data-parent="#myGroup">
+              <div class="row mt-2 parent-container4">
+                <div class="fotos col-4"><a href="./img/MediaStories/img-4.jpeg" class="image-link"><img src="./img/MediaStories/img-4.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/MediaStories/img-2.jpeg" class="image-link"><img src="./img/MediaStories/img-2.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/MediaStories/img-3.jpeg" class="image-link"><img src="./img/MediaStories/img-3.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/MediaStories/img-1.jpeg" class="image-link"><img src="./img/MediaStories/img-1.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/MediaStories/img-5.jpeg" class="image-link"><img src="./img/MediaStories/img-5.jpeg" class="if img-fluid" alt=""></a></div>
+                <div class="fotos col-4"><a href="./img/MediaStories/img-7.png" class="image-link"><img src="./img/MediaStories/img-7.png" class="if img-fluid" alt=""></a></div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Developer -->
+<div class="modal fade" id="modalDeveloper" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg"  role="document">
+    <div class="modal-content" >
+      <div class="modal-header" >
+        <h5 class="modal-title" id="exampleModalCenterTitle"><img src="./img/imgDeveloper.png" width="30px">Desenvolvimento</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">        
+        <div class="card-deck">
+          <div class="container-fluid">
+            <div id="dados2">
+            </div>
+            <script>
+              // 1º coluna = 1 carrosel, 2º coluna = 2 carrossel...
+              
+              const titulo = ['Propriety', 'Code Runner', 'Bheta', 'Advocacia', 'Gestão de notas']
+              const descricao = [
+              '<p>Esse site tem como propósito ajudar pessoas a encontrarem lares para comprar ou alugar. Participei ativamente tanto no ambito font-end quanto back-end do site.</p><p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has.</p>',
+              '<p>Este foi um jogo desenvolvido por uma equipe humildemente capacitada, consiste em um jogo feito em 2D para a diversão dos amantes de jogos.</p><p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>',
+              '<p>Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p><p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>',
+              '<p>Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has.</p><p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>',
+              '<p>Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has.</p><p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>']
+              
+              const imagem1 = ['./ImagensSites/property/img-1.png', './ImagensSites/jogoCode/img2.png', './ImagensSites/Bheta/img-1.png', './ImagensSites/advocacia/img-1.png', './ImagensSites/Aluno/imd-1.png']
+              const imagem2 = ['./ImagensSites/property/img-3.png','./ImagensSites/jogoCode/img1.png', './ImagensSites/Bheta/img-2.png', './ImagensSites/advocacia/img-2.png', './ImagensSites/Aluno/img-2.png']
+              const imagem3 = ['./ImagensSites/property/img-4.png','./ImagensSites/jogoCode/img3.png', './ImagensSites/Bheta/img-3.png', './ImagensSites/advocacia/img-1.png', './ImagensSites/Aluno/img-3.png']
+              const status = ['true', 'false', 'false', 'false', 'false']
+              const status2 = ['show', '', '', '', '']
+              
+              let html2 = "";
+              let indice = 0;
+              html2 += "<div class='accordion' id='myGroup2'>"
+                html2 += "<div class='row d-flex justify-content-center align-items-center'><div class='row col-12'>"
+                  for (indice in titulo) {
+                    html2 += "<button class='btn-mod ml-2' type='button' data-toggle='collapse' data-target='#collapse"+ indice +"' aria-expanded='" + status[indice] + "' aria-controls='collapse"+indice+"'><span>" + titulo[indice] + "</span></button>"
+                  }
+                  html2 += "</div></div>";
+                  indice = 0;
+                  for (indice in titulo) {
+                    html2 += "<div id='collapse" + indice + "' class='collapse pl-5 pr-5 "+ status2[indice] +"' data-parent='#myGroup2'>";
+                      html2 += "<div class='row'>";
+                        html2 += "<div data-interval='3000'id='carouselExampleControls" + indice + "' class='carousel slide' data-ride='carousel'>";
+                          html2 += "<div class='card-body'><h5 class='tituloDev'>" + titulo[indice] + "</h5></div>";
+                          html2 += "<div class='carousel-inner'>";
+                            html2 += "<div class='carousel-item active'><img src='"+ imagem1[indice] +"' class='d-block w-100'></div>";
+                            html2 += "<div class='carousel-item'><img src='"+ imagem2[indice] +"' class='d-block w-100'></div>";
+                            html2 += "<div class='carousel-item'><img src='"+ imagem3[indice] +"' class='d-block w-100'></div>" + "</div>";
+                            html2 += "<a class='carousel-control-prev' href='#carouselExampleControls" + indice +"' role='button' data-slide='prev'><span class='carousel-control-prev-icon' aria-hidden='true'></span></a>";
+                            html2 += "<a class='carousel-control-next' href='#carouselExampleControls" + indice +"' role='button' data-slide='next'><span class='carousel-control-next-icon' aria-hidden='true'></span></a></div>";
+                            html2 += "<div class='mt-2 pb-3 pr-3 pl-2'><span class='descDev'>"+ descricao[indice] +"</span></div>"
+                            html2+= "</div></div>";
+                          } 
+                          html2 += "</div>"
+                          document.getElementById('dados2').innerHTML = html2;
+                        </script>          
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <script>
+              var num = 1;
+              function mexer () {
+                $('#mexer').slideToggle(2000).slideToggle(2000);
+                // animar();  
+              }
+              
+              function efeito () {
+                $('#efeito').fadeOut(2000).fadeIn(2000)
+                efeito();
+              }
+              
+              function animar () {  
+                const t = 1500
+                $('#animar').fadeOut(t).fadeIn(t)
+                meuProgresso()
+                mexer()
+                efeito()
+                console.log("ola");
+              }
+              
+            </script>
+            
+            <button type="button" id='btnTop' onclick="backToTop();"><i class="topo fas fa-arrow-circle-up"></i></button>
+          </body>
+          
+          <script>
+            function backToTop() {
+              document.documentElement.scrollTop = 0;
+            }
+          </script>
+          
+          <script src="./bootstrap/js/jquery.min.js"></script>
+          <script src="./bootstrap/js/bootstrap.min.js"></script>
+          <script src="./magnific-popup.js"></script>
+          <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          <script src="javaScript.js"></script>
+          
+          </html>
